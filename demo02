@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<time.h>
+#include<stdlib.h>
+#include<string.h>
+#include<windows.h>
+int main() {
+    int a,b,c; char ch;
+    char hello[10] = "hello";
+    printf("hello and welcome to c programming\n");
+
+    if(scanf("%s", &ch) == hello) {
+     printf("hello there\n");
+    }
+
+    else {
+        printf("you are not welcome here\n");
+     exit(0); 
+    }
+
+
+
+
+
+
+
+
+return 0;
+}
